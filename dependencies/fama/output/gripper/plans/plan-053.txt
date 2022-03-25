@@ -1,0 +1,3 @@
+0: (drop ball12 roomb right)
+1: (drop ball11 roomb left)
+2: (move roomb rooma)

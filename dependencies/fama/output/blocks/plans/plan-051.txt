@@ -1,0 +1,3 @@
+0: (pick-up d)
+1: (stack d a)
+2: (unstack e f)

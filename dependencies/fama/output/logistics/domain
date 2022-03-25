@@ -1,0 +1,48 @@
+;; logistics domain Typed version.
+;;
+(define (domain logistics)
+  (:requirements :strips :typing) 
+  (:types truck
+          airplane - vehicle
+          package
+          vehicle - physobj
+          airport
+          location - place
+          city
+          place 
+          physobj - object)
+  
+  (:predicates 	(in-city ?o1 - place ?o2 - city)
+		(at ?o1 - physobj ?o2 - place)
+		(in ?o1 - package ?o2 - vehicle))
+  
+(:action LOAD-TRUCK
+   :parameters    (?o1 - package ?o2 - truck ?o3 - place)
+  :precondition ()
+  :effect ())
+
+(:action LOAD-AIRPLANE
+  :parameters   (?o1 - package ?o2 - airplane ?o3 - place)
+  :precondition ()
+  :effect ())
+
+(:action UNLOAD-TRUCK
+  :parameters   (?o1 - package ?o2 - truck ?o3 - place)
+  :precondition ()
+  :effect ())
+
+(:action UNLOAD-AIRPLANE
+  :parameters    (?o1 - package ?o2 - airplane ?o3 - place)
+  :precondition ()
+  :effect ())
+
+(:action DRIVE-TRUCK
+  :parameters (?o1 - truck ?o2 - place ?o3 - place ?city - city)
+  :precondition ()
+  :effect ())
+
+(:action FLY-AIRPLANE
+  :parameters (?o1 - airplane ?o2 - airport ?o3 - airport)
+  :precondition ()
+  :effect ())
+)

@@ -1,0 +1,35 @@
+(define (domain parking)
+ (:requirements :strips :typing)
+ (:types car curb)
+ (:predicates 
+    (at-curb ?o1 - car) 
+    (at-curb-num ?o1 - car ?o2 - curb)
+    (behind-car ?o1 - car ?o2 - car)
+    (car-clear ?o1 - car) 
+    (curb-clear ?o1 - curb)
+ )
+
+	(:action move-curb-to-curb
+		:parameters (?o1 - car ?o2 - curb ?o3 - curb)
+		:precondition ()
+		:effect ()
+	)
+
+	(:action move-curb-to-car
+		:parameters (?o1 - car ?o2 - curb ?o3 - car)
+		:precondition ()
+		:effect ()
+	)
+
+	(:action move-car-to-curb
+		:parameters (?o1 - car ?o2 - car ?o3 - curb)
+		:precondition ()
+		:effect ()
+	)
+
+	(:action move-car-to-car
+		:parameters (?o1 - car ?o2 - car ?o3 - car)
+		:precondition ()
+		:effect ()
+	)
+)

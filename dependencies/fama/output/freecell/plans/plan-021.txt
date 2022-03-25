@@ -1,0 +1,3 @@
+0: (sendtofree ha ca n4 n3)
+1: (sendtonewcol s3 da n1 n0)
+2: (sendtohome-b ca c n1 c0 n0 n0 n1)

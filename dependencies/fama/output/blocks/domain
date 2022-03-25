@@ -1,0 +1,30 @@
+(define (domain BLOCKS)
+  (:requirements :strips :typing)
+  (:types block)
+  (:predicates (on ?o1 - block ?o2 - block)
+	       (ontable ?o1)
+	       (clear ?o1)
+	       (handempty)
+	       (holding ?o1)
+	       )
+
+  (:action pick-up
+	     :parameters (?o1 - block)
+	     :precondition ()
+	     :effect ())
+
+  (:action put-down
+	     :parameters (?o1 - block)
+	     :precondition ()
+	     :effect ())
+
+  (:action stack
+	     :parameters (?o1 -block ?o2 - block)
+	     :precondition ()
+	     :effect ())
+
+  (:action unstack
+	     :parameters (?o1 - block ?o2 - block)
+	     :precondition ()
+	     :effect ())
+)

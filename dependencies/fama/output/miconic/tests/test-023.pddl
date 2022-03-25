@@ -1,0 +1,5 @@
+(define (problem mixed-f6-p3-u0-v0-g0-a0-n0-a0-b0-n0-f0-r2)
+  (:domain miconic)
+  (:objects p0 -  passenger p2 -  passenger p1 -  passenger f0 -  floor f1 -  floor f2 -  floor f3 -  floor f4 -  floor f5 -  floor )
+  (:init (above f0 f1) (above f0 f2) (above f2 f3) (above f4 f5) (above f1 f3) (above f2 f5) (above f1 f4) (origin p0 f1) (origin p1 f4) (origin p2 f3) (above f3 f5) (above f1 f2) (destin p2 f0) (destin p1 f0) (destin p0 f0) (above f1 f5) (above f0 f3) (above f3 f4) (above f0 f4) (above f0 f5) (above f2 f4) (boarded p0) (boarded p1) (lift-at f3) (boarded p2) )
+  (:goal (and (above f0 f1)(above f0 f2)(above f2 f3)(above f4 f5)(above f1 f3)(above f2 f5)(above f1 f4)(origin p0 f1)(origin p1 f4)(origin p2 f3)(above f3 f5)(above f1 f2)(destin p2 f0)(destin p1 f0)(destin p0 f0)(above f1 f5)(above f0 f3)(above f3 f4)(above f0 f4)(above f0 f5)(above f2 f4)(boarded p2)(lift-at f0)(served p0)(served p1))))

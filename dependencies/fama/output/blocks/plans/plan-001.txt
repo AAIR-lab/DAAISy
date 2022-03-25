@@ -1,0 +1,3 @@
+0: (put-down e)
+1: (unstack f d)
+2: (put-down f)

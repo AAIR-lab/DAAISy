@@ -1,0 +1,17 @@
+(solution 
+(:objects p0 -  passenger f1 -  floor f0 -  floor )
+(:init (above f0 f1) (lift-at f0) (origin p0 f0) (destin p0 f1))
+
+(:observations (above f0 f1) (lift-at f0) (origin p0 f0) (destin p0 f1))
+
+(board f0 p0)
+
+(:observations (above f0 f1) (lift-at f0) (origin p0 f0) (destin p0 f1) (boarded p0))
+
+(up f0 f1)
+
+(:observations (above f0 f1) (origin p0 f0) (destin p0 f1) (boarded p0) (lift-at f1))
+
+(depart f1 p0)
+
+(:goal (above f0 f1) (origin p0 f0) (destin p0 f1) (lift-at f1) (served p0)))

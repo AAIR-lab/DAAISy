@@ -1,0 +1,3 @@
+0: (sample-rock rover0 rover0store waypoint2)
+1: (communicate-rock-data rover0 general waypoint2 waypoint2 waypoint3)
+2: (navigate rover0 waypoint2 waypoint0)

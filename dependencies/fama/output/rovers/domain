@@ -1,0 +1,113 @@
+(define (domain Rover)
+    (:requirements :typing)
+    (:types rover waypoint store camera mode lander objective)
+    
+    (:predicates (at ?o1 - rover ?o2 - waypoint) 
+                 (at-lander ?o1 - lander ?o2 - waypoint)
+                 (can-traverse ?o1 - rover ?o2 - waypoint ?o3 - waypoint)
+                 (equipped-for-soil-analysis ?o1 - rover)
+                 (equipped-for-rock-analysis ?o1 - rover)
+                 (equipped-for-imaging ?o1 - rover)
+                 (empty ?o1 - store)
+                 (have-rock-analysis ?o1 - rover ?o2 - waypoint)
+                 (have-soil-analysis ?o1 - rover ?o2 - waypoint)
+                 (full ?o1 - store)
+                 (calibrated ?o1 - camera ?o2 - rover) 
+                 (supports ?o1 - camera ?o2 - mode)
+                 (available ?o1 - rover)
+                 (visible ?o1 - waypoint ?o2 - waypoint)
+                 (have-image ?o1 - rover ?o2 - objective ?o3 - mode)
+                 (communicated-soil-data ?o1 - waypoint)
+                 (communicated-rock-data ?o1 - waypoint)
+                 (communicated-image-data ?o1 - objective ?o2 - mode)
+                 (at-soil-sample ?o1 - waypoint)
+                 (at-rock-sample ?o2 - waypoint)
+                 (visible-from ?o1 - objective ?o2 - waypoint)
+                 (store-of ?o1 - store ?o2 - rover)
+                 (calibration-target ?o1 - camera ?o2 - objective)
+                 (on-board ?o1 - camera ?o2 - rover)
+                 (channel-free ?o1 - lander)
+    )
+    
+    (:action navigate
+        :parameters (?o1 - rover 
+                     ?o2 - waypoint 
+                     ?o3 - waypoint) 
+         :precondition ()
+         :effect ()
+    )
+    
+    (:action sample-soil
+        :parameters (?o1 - rover ?o2 - store ?o3 - waypoint)
+         :precondition ()
+         :effect ()
+    )
+    
+    (:action sample-rock
+        :parameters (?o1 - rover 
+                     ?o2 - store 
+                     ?o3 - waypoint)
+         :precondition ()
+         :effect ()
+    )
+    
+    (:action drop
+        :parameters (?o1 - rover 
+                     ?o2 - store)
+         :precondition ()
+         :effect ()
+    )
+    
+    (:action calibrate
+         :parameters (?o1 - rover 
+                      ?o2 - camera 
+                      ?o3 - objective 
+                      ?o4 - waypoint)
+         :precondition ()
+         :effect ()
+    )
+    
+    (:action take-image
+         :parameters (?o1 - rover 
+                      ?o2 - waypoint 
+                      ?o3 - objective 
+                      ?o4 - camera 
+                      ?o5 - mode)
+         :precondition ()
+         :effect ()
+    )
+    
+    
+    (:action communicate-soil-data
+         :parameters (?o1 - rover 
+                      ?o2 - lander 
+                      ?o3 - waypoint 
+                      ?o4 - waypoint 
+                      ?o5 - waypoint)
+         :precondition ()
+         :effect ()
+    )
+    
+    (:action communicate-rock-data
+         :parameters (?o1 - rover 
+                      ?o2 - lander 
+                      ?o3 - waypoint 
+                      ?o4 - waypoint 
+                      ?o5 - waypoint)
+         :precondition ()
+         :effect ()
+    )
+    
+    
+    (:action communicate-image-data
+         :parameters (?o1 - rover 
+                      ?o2 - lander 
+                      ?o3 - objective 
+                      ?o4 - mode 
+                      ?o5 - waypoint 
+                      ?o6 - waypoint)
+         :precondition ()
+         :effect ()
+    )
+
+)

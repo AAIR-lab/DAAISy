@@ -1,0 +1,5 @@
+(define (problem learning_problem)
+  (:domain logistics)
+  (:objects i1 -  step i2 -  step i3 -  step i4 -  step apt2 -  airport obj22 -  package cit1 -  city obj11 -  package obj21 -  package tru1 -  truck pos2 -  location obj12 -  package tru2 -  truck apn1 -  airplane cit2 -  city apt1 -  airport obj13 -  package obj23 -  package pos1 -  location )
+  (:init (inext i1 i2) (inext i2 i3) (inext i3 i4) (modeProg ) )
+  (:goal (and (test22 ))))

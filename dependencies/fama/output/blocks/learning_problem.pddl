@@ -1,0 +1,5 @@
+(define (problem learning_problem)
+  (:domain blocks)
+  (:objects i1 -  step i2 -  step i3 -  step i4 -  step c -  block e -  block b -  block d -  block a -  block g -  block f -  block )
+  (:init (inext i1 i2) (inext i2 i3) (inext i3 i4) (modeProg ) )
+  (:goal (and (test51 ))))

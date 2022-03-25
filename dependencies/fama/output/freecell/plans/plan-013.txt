@@ -1,0 +1,3 @@
+0: (sendtohome ca sa c n1 c0 n0)
+1: (sendtofree s3 s2 n2 n1)
+2: (homefromfreecell c2 c n2 ca n1 n1 n2)

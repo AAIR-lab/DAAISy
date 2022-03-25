@@ -1,0 +1,3 @@
+0: (drive-truck tru2 pos2 apt2 cit2)
+1: (load-truck obj13 tru2 apt2)
+2: (unload-truck obj22 tru2 apt2)

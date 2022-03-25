@@ -1,0 +1,9 @@
+Total number of actions:7
+Total number of actions in observations:
+0)create_block:6 states
+1)place_block:7 states
+2)move_up:5 states
+3)move_down:5 states
+4)remove_block:4 states
+5)move:6 states
+6)destroy_block:3 states

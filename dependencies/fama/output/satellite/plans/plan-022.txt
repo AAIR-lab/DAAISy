@@ -1,0 +1,3 @@
+0: (switch-on instrument0 satellite0)
+1: (switch-on instrument2 satellite1)
+2: (turn-to satellite0 star1 phenomenon8)

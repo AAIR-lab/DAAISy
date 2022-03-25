@@ -1,0 +1,3 @@
+0: (sendtofree d4 ha n2 n1)
+1: (sendtohome ca sa c n1 c0 n0)
+2: (move h2 s4 c3)

@@ -1,0 +1,5 @@
+Total number of actions:3
+Total number of actions in observations:
+0)pick:4 states
+1)move:3 states
+2)drop:4 states

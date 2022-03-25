@@ -1,0 +1,3 @@
+0: (move-up pos-1-2 n0 pos-2-2 n1)
+1: (place-block pos-2-2 pos-2-1 n1 n2)
+2: (move-down pos-2-2 n1 pos-1-2 n0)

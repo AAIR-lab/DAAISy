@@ -1,0 +1,3 @@
+0: (drop rover1 rover1store)
+1: (navigate rover1 waypoint2 waypoint6)
+2: (sample-rock rover1 rover1store waypoint6)

@@ -1,0 +1,3 @@
+0: (turn-to satellite4 star2 star9)
+1: (turn-to satellite3 star0 planet10)
+2: (turn-to satellite1 star3 planet11)

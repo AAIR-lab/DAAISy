@@ -1,0 +1,5 @@
+(define (problem strips-sat-x-1)
+  (:domain satellite)
+  (:objects satellite0 -  satellite image1 -  mode spectrograph2 -  mode thermograph0 -  mode star0 -  direction groundstation1 -  direction groundstation2 -  direction instrument0 -  instrument phenomenon3 -  direction phenomenon4 -  direction star5 -  direction phenomenon6 -  direction )
+  (:init (calibration-target instrument0 groundstation2) (on-board instrument0 satellite0) (supports instrument0 thermograph0) (power-on instrument0) (pointing satellite0 groundstation2) (calibrated instrument0) )
+  (:goal (and (calibration-target instrument0 groundstation2)(on-board instrument0 satellite0)(supports instrument0 thermograph0)(power-on instrument0)(calibrated instrument0)(have-image phenomenon4 thermograph0)(pointing satellite0 star5))))

@@ -1,0 +1,3 @@
+0: (unstack f e)
+1: (stack f d)
+2: (unstack e b)

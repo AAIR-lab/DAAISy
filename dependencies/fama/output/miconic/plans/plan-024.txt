@@ -1,0 +1,3 @@
+0: (board f0 p2)
+1: (up f0 f1)
+2: (board f1 p1)

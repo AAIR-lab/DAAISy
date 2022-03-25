@@ -1,0 +1,6 @@
+Total number of actions:4
+Total number of actions in observations:
+0)unstack:3 states
+1)put-down:2 states
+2)stack:3 states
+3)pick-up:2 states

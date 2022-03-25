@@ -1,0 +1,33 @@
+(define (domain miconic)
+  (:requirements :strips)
+  (:types floor passenger)
+
+(:predicates
+    (origin ?o1 - passenger ?o2 - floor)
+    (destin ?o1 - passenger ?o2 - floor)
+    (above ?o1 - floor  ?o2 - floor)
+    (boarded ?o1 - passenger)
+    (served ?o1 - passenger)
+    (lift-at ?o1 - floor)
+)
+
+
+(:action board
+  :parameters (?o1 - floor ?o2 - passenger)
+  :precondition ()
+  :effect ())
+
+(:action depart
+  :parameters (?o1 - floor ?o2 - passenger)
+  :precondition ()
+  :effect ())
+(:action up
+  :parameters (?o1 ?o2 - floor)
+  :precondition ()
+  :effect ())
+
+(:action down
+  :parameters (?o1 ?o2 - floor)
+  :precondition ()
+  :effect ())
+)

@@ -1,0 +1,72 @@
+(define (domain freecell)
+  (:requirements :strips :typing)  
+  (:types card num suit)
+  (:predicates (on ?o1 - card ?o2 - card)
+	       (incell ?o1 - card)
+	       (clear ?o1 - card)
+	       (cellspace ?o1 - num)
+	       (colspace ?o1 - num)
+	       (home ?o1 - card)
+	       (bottomcol ?o1 - card)
+	       (canstack ?o1 - card ?o2 - card)
+	       (suit ?o1 - card ?o2 - suit)
+	       (value ?o1 - card ?o2 - num)
+	       (successor ?o1 - num ?o2 - num)
+ )
+
+  (:action move
+	   :parameters (?o1 - card ?o2 - card ?o3 - card)
+	     :precondition ()
+	     :effect ())
+
+  (:action move-b
+	   :parameters (?o1 - card ?o2 - card ?o3 - num ?o4 - num)
+	     :precondition ()
+	     :effect ())
+
+  (:action sendtofree 
+	   :parameters (?o1 - card ?o2 - card ?o3 - num ?o4 - num)
+	     :precondition ()
+	     :effect ())
+
+  (:action sendtofree-b 
+	   :parameters (?o1 - card ?o2 - num ?o3 - num ?o4 - num ?o5 - num)
+	     :precondition ()
+	     :effect ())
+
+(:action sendtonewcol
+	 :parameters (?o1 - card ?o2 - card ?o3 - num ?o4 - num)
+	     :precondition ()
+	     :effect ())
+
+(:action sendtohome
+	 :parameters (?o1 - card ?o2 - card ?o3 - suit ?o4 - num
+			    ?o5 - card ?o6 - num)
+	     :precondition ()
+	     :effect ())
+
+(:action sendtohome-b
+	 :parameters (?o1 - card ?o2 - suit  ?o3 - num
+			    ?o4 - card
+			    ?o5 - num
+			    ?o6 - num ?o7 - num)
+	     :precondition ()
+	     :effect ())
+
+(:action homefromfreecell
+	 :parameters (?o1 - card ?o2 - suit ?o3 - num
+			    ?o4 - card ?o5 - num
+			    ?o6 - num ?o7 - num)
+	     :precondition ()
+	     :effect ())
+
+(:action colfromfreecell
+	 :parameters (?o1 - card ?o2 - card ?o3 - num ?o4 - num)
+	     :precondition ()
+	     :effect ())
+
+(:action newcolfromfreecell
+	 :parameters (?o1 - card ?o2 - num ?o3 - num ?o4 - num ?o5 - num)
+	     :precondition ()
+	     :effect ())
+)

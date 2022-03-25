@@ -1,0 +1,3 @@
+0: (depart f7 p2)
+1: (down f7 f6)
+2: (depart f6 p0)

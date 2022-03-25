@@ -1,0 +1,3 @@
+0: (pick ball18 rooma right)
+1: (pick ball17 rooma left)
+2: (move rooma roomb)

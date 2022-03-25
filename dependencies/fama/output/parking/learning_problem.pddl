@@ -1,0 +1,5 @@
+(define (problem learning_problem)
+  (:domain parking)
+  (:objects i1 -  step i2 -  step i3 -  step i4 -  step car-13 -  car car-18 -  car car-20 -  car car-08 -  car curb-03 -  curb curb-04 -  curb car-03 -  car car-10 -  car car-09 -  car car-05 -  car car-19 -  car car-16 -  car car-12 -  car car-04 -  car curb-02 -  curb car-11 -  car curb-07 -  curb curb-08 -  curb curb-11 -  curb car-21 -  car car-17 -  car curb-00 -  curb curb-01 -  curb curb-09 -  curb curb-10 -  curb car-15 -  car car-14 -  car curb-05 -  curb car-06 -  car car-02 -  car curb-06 -  curb car-00 -  car car-01 -  car car-07 -  car )
+  (:init (inext i1 i2) (inext i2 i3) (inext i3 i4) (modeProg ) )
+  (:goal (and (test31 ))))

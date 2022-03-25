@@ -1,0 +1,5 @@
+(define (problem learning_problem)
+  (:domain miconic)
+  (:objects i1 -  step i2 -  step i3 -  step i4 -  step f2 -  floor f5 -  floor p1 -  passenger f7 -  floor p2 -  passenger p0 -  passenger p3 -  passenger f4 -  floor f6 -  floor f3 -  floor f0 -  floor f1 -  floor )
+  (:init (inext i1 i2) (inext i2 i3) (inext i3 i4) (modeProg ) )
+  (:goal (and (test50 ))))

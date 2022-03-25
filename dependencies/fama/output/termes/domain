@@ -1,0 +1,57 @@
+(define (domain termes)
+(:requirements :typing :negative-preconditions)
+(:types
+    numb - object
+    position - object
+)
+(:predicates
+    (height ?o1 - position ?o2 - numb)
+    (at ?o1 - position)
+    (has-block)
+    (SUCC ?o1 - numb ?o2 - numb)
+    (NEIGHBOR ?o1 - position ?o2 - position)
+    (IS-DEPOT ?o1 - position)
+)
+(:action move
+    :parameters (?o1 - position ?o2 - position ?o3 - numb)
+    :precondition ()
+    :effect ()
+)
+
+(:action move-up
+    :parameters (?o1 - position ?o2 - numb ?o3 - position ?o4 - numb)
+    :precondition ()
+    :effect ()
+)
+
+(:action move-down
+    :parameters (?o1 - position ?o2 - numb ?o3 - position ?o4 - numb)
+    :precondition ()
+    :effect ()
+)
+
+(:action place-block
+    :parameters (?o1 - position ?o2 - position ?o3 - numb ?o4 - numb)
+    :precondition ()
+    :effect ()
+)
+
+(:action remove-block
+    :parameters (?o1 - position ?o2 - position ?o3 - numb ?o4 - numb)
+    :precondition ()
+    :effect ()
+)
+
+(:action create-block
+    :parameters (?o1 - position)
+    :precondition ()
+    :effect ()
+)
+
+(:action destroy-block
+    :parameters (?o1 - position)
+    :precondition ()
+    :effect ()
+)
+
+)

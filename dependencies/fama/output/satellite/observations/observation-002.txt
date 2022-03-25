@@ -1,0 +1,17 @@
+(solution 
+(:objects satellite0 -  satellite image1 -  mode spectrograph2 -  mode thermograph0 -  mode star0 -  direction groundstation1 -  direction groundstation2 -  direction instrument0 -  instrument phenomenon3 -  direction phenomenon4 -  direction star5 -  direction phenomenon6 -  direction )
+(:init (calibration-target instrument0 groundstation2) (on-board instrument0 satellite0) (supports instrument0 thermograph0) (power-on instrument0) (calibrated instrument0) (have-image phenomenon4 thermograph0) (pointing satellite0 star5))
+
+(:observations (calibration-target instrument0 groundstation2) (on-board instrument0 satellite0) (supports instrument0 thermograph0) (power-on instrument0) (calibrated instrument0) (have-image phenomenon4 thermograph0) (pointing satellite0 star5))
+
+(take-image satellite0 star5 instrument0 thermograph0)
+
+(:observations (calibration-target instrument0 groundstation2) (on-board instrument0 satellite0) (supports instrument0 thermograph0) (power-on instrument0) (calibrated instrument0) (have-image phenomenon4 thermograph0) (pointing satellite0 star5) (have-image star5 thermograph0))
+
+(turn-to satellite0 phenomenon6 star5)
+
+(:observations (calibration-target instrument0 groundstation2) (on-board instrument0 satellite0) (supports instrument0 thermograph0) (power-on instrument0) (calibrated instrument0) (have-image phenomenon4 thermograph0) (have-image star5 thermograph0) (pointing satellite0 phenomenon6))
+
+(take-image satellite0 phenomenon6 instrument0 thermograph0)
+
+(:goal (calibration-target instrument0 groundstation2) (on-board instrument0 satellite0) (supports instrument0 thermograph0) (power-on instrument0) (calibrated instrument0) (have-image phenomenon4 thermograph0) (have-image star5 thermograph0) (pointing satellite0 phenomenon6) (have-image phenomenon6 thermograph0)))

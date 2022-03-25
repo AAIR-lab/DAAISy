@@ -1,0 +1,3 @@
+0: (take-image satellite3 phenomenon12 instrument9 image0)
+1: (turn-to satellite3 phenomenon13 phenomenon12)
+2: (take-image satellite3 phenomenon13 instrument9 thermograph1)

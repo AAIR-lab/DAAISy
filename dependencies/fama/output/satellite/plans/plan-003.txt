@@ -1,0 +1,3 @@
+0: (switch-on instrument1 satellite0)
+1: (turn-to satellite0 groundstation2 planet4)
+2: (calibrate satellite0 instrument1 groundstation2)

@@ -1,0 +1,17 @@
+(solution 
+(:objects left -  gripper roomb -  room rooma -  room ball19 -  ball right -  gripper ball20 -  ball ball18 -  ball ball17 -  ball ball16 -  ball ball15 -  ball ball14 -  ball ball13 -  ball ball12 -  ball ball11 -  ball ball10 -  ball ball9 -  ball ball8 -  ball ball7 -  ball ball6 -  ball ball5 -  ball ball4 -  ball ball3 -  ball ball2 -  ball ball1 -  ball )
+(:init (at ball12 rooma) (at ball2 rooma) (at ball11 rooma) (at ball4 rooma) (at ball10 rooma) (at ball6 rooma) (at ball8 rooma) (at ball5 rooma) (at ball1 rooma) (at ball7 rooma) (at ball9 rooma) (at ball3 rooma) (at ball20 roomb) (at ball19 roomb) (at ball18 roomb) (at ball17 roomb) (at ball16 roomb) (at ball15 roomb) (carry ball14 right) (carry ball13 left) (at-robby roomb))
+
+(:observations (at ball12 rooma) (at ball2 rooma) (at ball11 rooma) (at ball4 rooma) (at ball10 rooma) (at ball6 rooma) (at ball8 rooma) (at ball5 rooma) (at ball1 rooma) (at ball7 rooma) (at ball9 rooma) (at ball3 rooma) (at ball20 roomb) (at ball19 roomb) (at ball18 roomb) (at ball17 roomb) (at ball16 roomb) (at ball15 roomb) (carry ball14 right) (carry ball13 left) (at-robby roomb))
+
+(drop ball14 roomb right)
+
+(:observations (at ball12 rooma) (at ball2 rooma) (at ball11 rooma) (at ball4 rooma) (at ball10 rooma) (at ball6 rooma) (at ball8 rooma) (at ball5 rooma) (at ball1 rooma) (at ball7 rooma) (at ball9 rooma) (at ball3 rooma) (at ball20 roomb) (at ball19 roomb) (at ball18 roomb) (at ball17 roomb) (at ball16 roomb) (at ball15 roomb) (carry ball13 left) (at-robby roomb) (at ball14 roomb) (free right))
+
+(drop ball13 roomb left)
+
+(:observations (at ball12 rooma) (at ball2 rooma) (at ball11 rooma) (at ball4 rooma) (at ball10 rooma) (at ball6 rooma) (at ball8 rooma) (at ball5 rooma) (at ball1 rooma) (at ball7 rooma) (at ball9 rooma) (at ball3 rooma) (at ball20 roomb) (at ball19 roomb) (at ball18 roomb) (at ball17 roomb) (at ball16 roomb) (at ball15 roomb) (at-robby roomb) (at ball14 roomb) (free right) (at ball13 roomb) (free left))
+
+(move roomb rooma)
+
+(:goal (at ball12 rooma) (at ball2 rooma) (at ball11 rooma) (at ball4 rooma) (at ball10 rooma) (at ball6 rooma) (at ball8 rooma) (at ball5 rooma) (at ball1 rooma) (at ball7 rooma) (at ball9 rooma) (at ball3 rooma) (at ball20 roomb) (at ball19 roomb) (at ball18 roomb) (at ball17 roomb) (at ball16 roomb) (at ball15 roomb) (at ball14 roomb) (free right) (at ball13 roomb) (free left) (at-robby rooma)))

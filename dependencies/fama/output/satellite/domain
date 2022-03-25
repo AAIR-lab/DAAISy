@@ -1,0 +1,48 @@
+
+(define (domain satellite)
+  (:requirements :strips :equality :typing)
+  (:types satellite direction instrument mode)
+ (:predicates
+               (on-board ?o1 - instrument ?o2 - satellite)
+	       (supports ?o1 - instrument ?o2 - mode)
+	       (pointing ?o1 - satellite ?o2 - direction)
+	       (power-avail ?o1 - satellite)
+	       (power-on ?o1 - instrument)
+	       (calibrated ?o1 - instrument)
+	       (have-image ?o1 - direction ?o2 - mode)
+	       (calibration-target ?o1 - instrument ?o2 - direction))
+
+  (:action turn-to
+   :parameters (?o1 - satellite ?o2 - direction ?o3 - direction)
+   :precondition ()
+   :effect ()
+  )
+
+
+  (:action switch-on
+   :parameters (?o1 - instrument ?o2 - satellite)
+   :precondition ()
+   :effect ()
+
+  )
+
+
+  (:action switch-off
+   :parameters (?o1 - instrument ?o2 - satellite)
+   :precondition ()
+   :effect ()
+  )
+
+  (:action calibrate
+   :parameters (?o1 - satellite ?o2 - instrument ?o3 - direction)
+   :precondition ()
+   :effect ()
+  )
+
+
+  (:action take-image
+   :parameters (?o1 - satellite ?o2 - direction ?o3 - instrument ?o4 - mode)
+   :precondition ()
+   :effect ()
+  )
+)

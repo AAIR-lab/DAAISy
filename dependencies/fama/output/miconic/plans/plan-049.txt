@@ -1,0 +1,3 @@
+0: (board f6 p2)
+1: (down f6 f5)
+2: (board f5 p3)

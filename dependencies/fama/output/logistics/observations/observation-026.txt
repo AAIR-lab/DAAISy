@@ -1,0 +1,17 @@
+(solution 
+(:objects apt2 -  airport apn1 -  airplane pos2 -  location apt1 -  airport pos1 -  location cit1 -  city cit2 -  city tru2 -  truck tru1 -  truck obj23 -  package obj22 -  package obj21 -  package obj13 -  package obj12 -  package obj11 -  package )
+(:init (at obj11 pos1) (in-city apt1 cit1) (at obj23 pos2) (at obj22 pos2) (at apn1 apt2) (in-city apt2 cit2) (at tru2 pos2) (in-city pos2 cit2) (in-city pos1 cit1) (at obj13 pos1) (in obj21 tru2) (in obj12 tru1) (at tru1 apt1))
+
+(:observations (at obj11 pos1) (in-city apt1 cit1) (at obj23 pos2) (at obj22 pos2) (at apn1 apt2) (in-city apt2 cit2) (at tru2 pos2) (in-city pos2 cit2) (in-city pos1 cit1) (at obj13 pos1) (in obj21 tru2) (in obj12 tru1) (at tru1 apt1))
+
+(load-truck obj23 tru2 pos2)
+
+(:observations (at obj11 pos1) (in-city apt1 cit1) (at obj22 pos2) (at apn1 apt2) (in-city apt2 cit2) (at tru2 pos2) (in-city pos2 cit2) (in-city pos1 cit1) (at obj13 pos1) (in obj21 tru2) (in obj12 tru1) (at tru1 apt1) (in obj23 tru2))
+
+(drive-truck tru2 pos2 apt2 cit2)
+
+(:observations (at obj11 pos1) (in-city apt1 cit1) (at obj22 pos2) (at apn1 apt2) (in-city apt2 cit2) (in-city pos2 cit2) (in-city pos1 cit1) (at obj13 pos1) (in obj21 tru2) (in obj12 tru1) (at tru1 apt1) (in obj23 tru2) (at tru2 apt2))
+
+(unload-truck obj21 tru2 apt2)
+
+(:goal (at obj11 pos1) (in-city apt1 cit1) (at obj22 pos2) (at apn1 apt2) (in-city apt2 cit2) (in-city pos2 cit2) (in-city pos1 cit1) (at obj13 pos1) (in obj12 tru1) (at tru1 apt1) (in obj23 tru2) (at tru2 apt2) (at obj21 apt2)))

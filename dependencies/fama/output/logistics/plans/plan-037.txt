@@ -1,0 +1,3 @@
+0: (fly-airplane apn1 apt1 apt2)
+1: (unload-airplane obj13 apn1 apt2)
+2: (unload-truck obj12 tru1 apt1)

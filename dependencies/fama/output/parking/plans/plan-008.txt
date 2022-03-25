@@ -1,0 +1,3 @@
+0: (move-car-to-car car-12 car-20 car-00)
+1: (move-car-to-car car-15 car-03 car-20)
+2: (move-car-to-car car-14 car-11 car-02)

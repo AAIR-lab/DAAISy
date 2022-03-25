@@ -1,0 +1,3 @@
+0: (move ha ca s2)
+1: (sendtohome ha s2 h n1 h0 n0)
+2: (sendtohome-b ca c n1 c0 n0 n3 n4)

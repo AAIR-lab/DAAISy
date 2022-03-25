@@ -1,0 +1,3 @@
+0: (sendtohome h2 c3 h n2 ha n1)
+1: (sendtonewcol s3 c4 n3 n2)
+2: (sendtohome c3 h3 c n3 c2 n2)

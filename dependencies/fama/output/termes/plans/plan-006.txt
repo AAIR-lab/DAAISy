@@ -1,0 +1,3 @@
+0: (create-block pos-2-0)
+1: (move-up pos-2-0 n0 pos-2-1 n1)
+2: (place-block pos-2-1 pos-2-2 n1 n2)

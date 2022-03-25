@@ -1,0 +1,5 @@
+(define (problem learning_problem)
+  (:domain rover)
+  (:objects i1 -  step i2 -  step i3 -  step i4 -  step waypoint1 -  waypoint low-res -  mode waypoint6 -  waypoint waypoint0 -  waypoint waypoint2 -  waypoint rover2store -  store camera1 -  camera rover1store -  store rover3 -  rover waypoint4 -  waypoint camera4 -  camera rover2 -  rover waypoint5 -  waypoint colour -  mode rover3store -  store objective2 -  objective camera2 -  camera camera0 -  camera objective1 -  objective rover1 -  rover general -  lander camera3 -  camera waypoint3 -  waypoint high-res -  mode rover0 -  rover objective0 -  objective rover0store -  store )
+  (:init (inext i1 i2) (inext i2 i3) (inext i3 i4) (modeProg ) )
+  (:goal (and (test51 ))))

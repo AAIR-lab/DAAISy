@@ -1,0 +1,5 @@
+(define (problem learning_problem)
+  (:domain gripper)
+  (:objects i1 -  step i2 -  step i3 -  step i4 -  step ball11 -  ball ball5 -  ball ball14 -  ball ball16 -  ball ball12 -  ball ball6 -  ball ball7 -  ball ball9 -  ball ball1 -  ball ball4 -  ball left -  gripper ball3 -  ball ball8 -  ball ball10 -  ball roomb -  room ball15 -  ball ball13 -  ball right -  gripper ball2 -  ball rooma -  room )
+  (:init (inext i1 i2) (inext i2 i3) (inext i3 i4) (modeProg ) )
+  (:goal (and (test51 ))))

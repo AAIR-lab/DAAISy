@@ -1,0 +1,3 @@
+0: (depart f6 p2)
+1: (up f6 f7)
+2: (depart f7 p3)

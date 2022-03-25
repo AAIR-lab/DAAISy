@@ -1,0 +1,11 @@
+Total number of actions:9
+Total number of actions in observations:
+0)calibrate:1 states
+1)sample_rock:1 states
+2)navigate:2 states
+3)communicate_rock_data:1 states
+4)drop:1 states
+5)take_image:1 states
+6)communicate_image_data:1 states
+7)sample_soil:1 states
+8)communicate_soil_data:1 states

@@ -1,0 +1,3 @@
+0: (sendtohome-b h2 h n2 ha n1 n3 n4)
+1: (sendtohome h3 s2 h n3 h2 n2)
+2: (sendtohome-b s2 s n2 sa n1 n4 n5)

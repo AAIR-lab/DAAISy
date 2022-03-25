@@ -1,0 +1,3 @@
+0: (move-curb-to-car car-00 curb-09 car-07)
+1: (move-car-to-curb car-08 car-21 curb-09)
+2: (move-curb-to-car car-21 curb-03 car-08)

@@ -1,0 +1,3 @@
+0: (up f5 f7)
+1: (board f7 p1)
+2: (depart f7 p2)

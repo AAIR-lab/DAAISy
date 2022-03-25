@@ -1,0 +1,3 @@
+0: (unstack g e)
+1: (put-down g)
+2: (pick-up c)

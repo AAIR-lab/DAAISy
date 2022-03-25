@@ -1,0 +1,5 @@
+domain_name, #action, #predicate, #modified_predicates, #PALtuples_fixed_num, #queries_total, #agent_failed, #repeated_queries, #unique_queries, #model_similarity, #time_elapsed, pal_tuple
+gripper-typed,3,4,5,1,1,0,0,1,0.6,0.007157325744628906,('move', 'at_robby|1', <Location.PRECOND: 1>),
+gripper-typed,3,4,5,2,2,1,0,2,0.6,0.011062145233154297,('pick', 'at|0|1', <Location.PRECOND: 1>),
+gripper-typed,3,4,5,3,3,1,0,3,0.7,0.01453089714050293,('drop', 'at|0|1', <Location.PRECOND: 1>),
+gripper-typed,3,4,5,4,4,1,0,4,0.8,0.017451763153076172,('drop', 'free|2', <Location.PRECOND: 1>),

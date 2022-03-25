@@ -1,0 +1,3 @@
+0: (sendtohome-b c3 c n3 c2 n2 n4 n5)
+1: (homefromfreecell c4 c n4 c3 n3 n3 n4)
+2: (sendtohome-b d3 d n3 d2 n2 n5 n6)

@@ -1,0 +1,3 @@
+0: (calibrate satellite4 instrument8 star4)
+1: (turn-to satellite4 planet5 star4)
+2: (take-image satellite4 planet5 instrument8 image4)

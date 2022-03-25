@@ -1,0 +1,3 @@
+0: (drop rover0 rover0store)
+1: (navigate rover0 waypoint4 waypoint3)
+2: (sample-soil rover0 rover0store waypoint3)

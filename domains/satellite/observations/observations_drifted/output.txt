@@ -1,0 +1,153 @@
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /usr/bin/python3 /home/local/ASUAD/rmnayyar/Desktop/agent_interrogation/dependencies/FD/builds/release/bin/translate/translate.py /home/local/ASUAD/rmnayyar/Desktop/agent_interrogation/domains/satellite/domains/domain.pddl /home/local/ASUAD/rmnayyar/Desktop/agent_interrogation/domains/satellite/instances/instances/instance-2.pddl --sas-file output.sas
+Parsing...
+Parsing: [0.000s CPU, 0.001s wall-clock]
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.000s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.000s CPU, 0.001s wall-clock]
+Preparing model... [0.010s CPU, 0.001s wall-clock]
+Generated 31 rules.
+Computing model... [0.000s CPU, 0.001s wall-clock]
+199 relevant atoms
+69 auxiliary atoms
+268 final queue length
+343 total queue pushes
+Completing instantiation... [0.000s CPU, 0.001s wall-clock]
+Instantiating: [0.010s CPU, 0.005s wall-clock]
+Computing fact groups...
+Finding invariants...
+12 initial candidates
+Finding invariants: [0.000s CPU, 0.001s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.000s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+26 uncovered facts
+Choosing groups: [0.000s CPU, 0.000s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
+Computing fact groups: [0.000s CPU, 0.001s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Translator axioms removed by simplifying: 0
+Computing negative axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.000s CPU, 0.000s wall-clock]
+Translating task: [0.000s CPU, 0.002s wall-clock]
+2 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+0 operators removed
+0 axioms removed
+2 propositions removed
+Detecting unreachable propositions: [0.000s CPU, 0.001s wall-clock]
+Reordering and filtering variables...
+9 of 28 variables necessary.
+0 of 2 mutex groups necessary.
+71 of 102 operators necessary.
+0 of 0 axiom rules necessary.
+Reordering and filtering variables: [0.000s CPU, 0.000s wall-clock]
+Translator variables: 9
+Translator derived variables: 0
+Translator facts: 25
+Translator goal facts: 5
+Translator mutex groups: 0
+Translator total mutex groups size: 0
+Translator operators: 71
+Translator axioms: 0
+Translator task size: 274
+Translator peak memory: 42252 KB
+Writing output... [0.000s CPU, 0.001s wall-clock]
+Done! [0.010s CPU, 0.011s wall-clock]
+translate exit code: 0
+
+INFO     Running search (release).
+INFO     search stdin: output.sas
+INFO     search time limit: None
+INFO     search memory limit: None
+INFO     search command line string: /home/local/ASUAD/rmnayyar/Desktop/agent_interrogation/dependencies/FD/builds/release/bin/downward --search 'astar(lmcut())' --internal-plan-file /home/local/ASUAD/rmnayyar/Desktop/agent_interrogation/domains/satellite/observations/observations_drifted/plan-2 < output.sas
+[t=6.5036e-05s, 22196 KB] reading input...
+[t=0.000772086s, 22196 KB] done reading input!
+[t=0.00292826s, 22416 KB] Initializing landmark cut heuristic...
+[t=0.00306837s, 22416 KB] Building successor generator...done!
+[t=0.00325837s, 22416 KB] peak memory difference for successor generator creation: 0 KB
+[t=0.00329981s, 22416 KB] time for successor generation creation: 5.1185e-05s
+[t=0.00334605s, 22416 KB] Variables: 9
+[t=0.00339383s, 22416 KB] FactPairs: 25
+[t=0.00343384s, 22416 KB] Bytes per state: 4
+[t=0.00359586s, 22416 KB] Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+[t=0.00375279s, 22416 KB] New best heuristic value for lmcut: 12
+[t=0.00381111s, 22416 KB] g=0, 1 evaluated, 0 expanded
+[t=0.00385452s, 22416 KB] f = 12, 1 evaluated, 0 expanded
+[t=0.00390062s, 22416 KB] Initial heuristic value for lmcut: 12
+[t=0.0039428s, 22416 KB] pruning method: none
+[t=0.00407005s, 22416 KB] New best heuristic value for lmcut: 11
+[t=0.00411494s, 22416 KB] g=1, 3 evaluated, 1 expanded
+[t=0.00454517s, 22416 KB] f = 13, 17 evaluated, 2 expanded
+[t=0.00462883s, 22416 KB] New best heuristic value for lmcut: 10
+[t=0.00467414s, 22416 KB] g=3, 18 evaluated, 3 expanded
+[t=0.00480075s, 22416 KB] New best heuristic value for lmcut: 9
+[t=0.00484464s, 22416 KB] g=4, 21 evaluated, 4 expanded
+[t=0.00503883s, 22416 KB] New best heuristic value for lmcut: 8
+[t=0.00508264s, 22416 KB] g=5, 28 evaluated, 5 expanded
+[t=0.00520904s, 22416 KB] New best heuristic value for lmcut: 7
+[t=0.00525287s, 22416 KB] g=6, 32 evaluated, 6 expanded
+[t=0.00541812s, 22416 KB] New best heuristic value for lmcut: 6
+[t=0.00544784s, 22416 KB] g=7, 38 evaluated, 7 expanded
+[t=0.00553233s, 22416 KB] New best heuristic value for lmcut: 5
+[t=0.00556138s, 22416 KB] g=8, 43 evaluated, 8 expanded
+[t=0.00563942s, 22416 KB] New best heuristic value for lmcut: 4
+[t=0.00566918s, 22416 KB] g=9, 48 evaluated, 9 expanded
+[t=0.00574719s, 22416 KB] New best heuristic value for lmcut: 3
+[t=0.00577552s, 22416 KB] g=10, 54 evaluated, 10 expanded
+[t=0.00583562s, 22416 KB] New best heuristic value for lmcut: 2
+[t=0.0058639s, 22416 KB] g=11, 58 evaluated, 11 expanded
+[t=0.00595039s, 22416 KB] New best heuristic value for lmcut: 1
+[t=0.00597908s, 22416 KB] g=12, 66 evaluated, 12 expanded
+[t=0.00601902s, 22416 KB] New best heuristic value for lmcut: 0
+[t=0.00604705s, 22416 KB] g=13, 68 evaluated, 13 expanded
+[t=0.00607721s, 22416 KB] Solution found!
+[t=0.00610668s, 22416 KB] Actual search time: 0.00214616s
+switch_on instrument1 satellite0 (1)
+turn_to satellite0 groundstation2 planet4 (1)
+calibrate satellite0 instrument1 groundstation2 (1)
+turn_to satellite0 phenomenon5 groundstation2 (1)
+take_image satellite0 phenomenon5 instrument1 image2 (1)
+turn_to satellite0 phenomenon6 phenomenon5 (1)
+take_image satellite0 phenomenon6 instrument1 infrared0 (1)
+turn_to satellite0 planet3 phenomenon6 (1)
+take_image satellite0 planet3 instrument1 infrared0 (1)
+turn_to satellite0 planet4 planet3 (1)
+take_image satellite0 planet4 instrument1 infrared0 (1)
+turn_to satellite0 star7 planet4 (1)
+take_image satellite0 star7 instrument1 infrared0 (1)
+[t=0.00613677s, 22416 KB] Plan length: 13 step(s).
+[t=0.00613677s, 22416 KB] Plan cost: 13
+[t=0.00613677s, 22416 KB] Expanded 14 state(s).
+[t=0.00613677s, 22416 KB] Reopened 0 state(s).
+[t=0.00613677s, 22416 KB] Evaluated 68 state(s).
+[t=0.00613677s, 22416 KB] Evaluations: 68
+[t=0.00613677s, 22416 KB] Generated 116 state(s).
+[t=0.00613677s, 22416 KB] Dead ends: 0 state(s).
+[t=0.00613677s, 22416 KB] Expanded until last jump: 2 state(s).
+[t=0.00613677s, 22416 KB] Reopened until last jump: 0 state(s).
+[t=0.00613677s, 22416 KB] Evaluated until last jump: 17 state(s).
+[t=0.00613677s, 22416 KB] Generated until last jump: 17 state(s).
+[t=0.00613677s, 22416 KB] Number of registered states: 68
+[t=0.00613677s, 22416 KB] Int hash set load factor: 68/128 = 0.53125
+[t=0.00613677s, 22416 KB] Int hash set resizes: 7
+[t=0.00613677s, 22416 KB] Search time: 0.00254238s
+[t=0.00613677s, 22416 KB] Total time: 0.00613677s
+Solution found.
+Peak memory: 22416 KB
+Remove intermediate file output.sas
+search exit code: 0
+

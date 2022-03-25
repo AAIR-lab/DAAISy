@@ -1,0 +1,3 @@
+0: (communicate-soil-data rover2 general waypoint0 waypoint6 waypoint4)
+1: (navigate rover1 waypoint2 waypoint0)
+2: (sample-rock rover1 rover1store waypoint0)

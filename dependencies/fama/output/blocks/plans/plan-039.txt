@@ -1,0 +1,3 @@
+0: (stack d b)
+1: (pick-up g)
+2: (stack g d)

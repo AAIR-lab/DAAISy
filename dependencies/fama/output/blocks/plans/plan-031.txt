@@ -1,0 +1,3 @@
+0: (put-down e)
+1: (pick-up c)
+2: (stack c d)

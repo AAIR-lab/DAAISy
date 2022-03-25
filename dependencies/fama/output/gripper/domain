@@ -1,0 +1,23 @@
+(define (domain gripper)
+   (:requirements :typing)
+   (:types room ball gripper)
+   (:predicates (at-robby ?o1 - room)
+		(at ?o1 - ball ?o2 - room)
+		(free ?o1 - gripper)
+		(carry ?o1 - ball ?o2 - gripper))
+
+   (:action move
+       :parameters  (?o1 - room ?o2 - room)
+	     :precondition ()
+	     :effect ())
+
+   (:action pick
+       :parameters (?o1 - ball ?o2 - room ?o3 - gripper)
+	     :precondition ()
+	     :effect ())
+
+   (:action drop
+       :parameters  (?o1 - ball ?o2 - room ?o3 - gripper)
+	     :precondition ()
+	     :effect ())
+)

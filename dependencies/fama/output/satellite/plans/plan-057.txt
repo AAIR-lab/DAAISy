@@ -1,0 +1,3 @@
+0: (switch-on instrument6 satellite3)
+1: (calibrate satellite3 instrument6 groundstation3)
+2: (turn-to satellite3 star6 groundstation3)

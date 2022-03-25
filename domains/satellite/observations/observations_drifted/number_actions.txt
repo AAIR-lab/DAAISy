@@ -1,0 +1,6 @@
+Total number of actions:5
+Total number of actions in observations:
+0)switch_on:2 states
+1)turn_to:10 states
+2)calibrate:2 states
+3)take_image:8 states

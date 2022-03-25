@@ -1,0 +1,3 @@
+0: (calibrate rover0 camera0 objective0 waypoint0)
+1: (take-image rover0 waypoint0 objective1 camera0 low-res)
+2: (communicate-image-data rover0 general objective1 low-res waypoint0 waypoint1)

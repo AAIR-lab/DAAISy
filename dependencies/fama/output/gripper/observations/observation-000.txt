@@ -1,0 +1,17 @@
+(solution 
+(:objects left -  gripper roomb -  room rooma -  room ball3 -  ball right -  gripper ball4 -  ball ball2 -  ball ball1 -  ball )
+(:init (at ball1 rooma) (at ball2 rooma) (free right) (at-robby rooma) (free left) (at ball3 rooma) (at ball4 rooma))
+
+(:observations (at ball1 rooma) (at ball2 rooma) (free right) (at-robby rooma) (free left) (at ball3 rooma) (at ball4 rooma))
+
+(pick ball4 rooma right)
+
+(:observations (at ball1 rooma) (at ball2 rooma) (at-robby rooma) (free left) (at ball3 rooma) (carry ball4 right))
+
+(pick ball3 rooma left)
+
+(:observations (at ball1 rooma) (at ball2 rooma) (at-robby rooma) (carry ball4 right) (carry ball3 left))
+
+(move rooma roomb)
+
+(:goal (at ball1 rooma) (at ball2 rooma) (carry ball4 right) (carry ball3 left) (at-robby roomb)))

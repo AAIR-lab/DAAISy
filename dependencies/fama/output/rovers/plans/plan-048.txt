@@ -1,0 +1,3 @@
+0: (communicate-image-data rover3 general objective2 colour waypoint6 waypoint4)
+1: (navigate rover2 waypoint3 waypoint4)
+2: (sample-soil rover2 rover2store waypoint4)

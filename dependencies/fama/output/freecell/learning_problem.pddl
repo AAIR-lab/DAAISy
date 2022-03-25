@@ -1,0 +1,5 @@
+(define (problem learning_problem)
+  (:domain freecell)
+  (:objects i1 -  step i2 -  step i3 -  step i4 -  step h2 -  card n0 -  num da -  card n3 -  num s0 -  card c2 -  card d -  suit n1 -  num h -  suit s -  suit c -  suit n6 -  num n9 -  num n8 -  num ha -  card n13 -  num d2 -  card n7 -  num n12 -  num s2 -  card ca -  card n5 -  num h0 -  card n10 -  num n11 -  num n4 -  num n2 -  num sa -  card c0 -  card d0 -  card )
+  (:init (inext i1 i2) (inext i2 i3) (inext i3 i4) (modeProg ) )
+  (:goal (and (test10 ))))

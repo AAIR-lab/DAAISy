@@ -1,0 +1,3 @@
+0: (take-image satellite4 phenomenon8 instrument8 image4)
+1: (turn-to satellite4 star12 phenomenon8)
+2: (take-image satellite4 star12 instrument8 image4)

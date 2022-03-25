@@ -1,0 +1,17 @@
+(solution 
+(:objects d -  block f -  block e -  block c -  block b -  block a -  block )
+(:init (clear e) (ontable e) (ontable d) (clear c) (ontable f) (ontable c) (clear f) (clear a) (on a d) (holding b))
+
+(:observations (clear e) (ontable e) (ontable d) (clear c) (ontable f) (ontable c) (clear f) (clear a) (on a d) (holding b))
+
+(stack b a)
+
+(:observations (clear e) (ontable e) (ontable d) (clear c) (ontable f) (ontable c) (clear f) (on a d) (clear b) (handempty ) (on b a))
+
+(pick-up c)
+
+(:observations (clear e) (ontable e) (ontable d) (ontable f) (clear f) (on a d) (clear b) (on b a) (holding c))
+
+(stack c b)
+
+(:goal (clear e) (ontable e) (ontable d) (ontable f) (clear f) (on a d) (on b a) (clear c) (handempty ) (on c b)))
