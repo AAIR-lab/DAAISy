@@ -140,6 +140,15 @@ or [rmnayyar@asu.edu](mailto:rmnayyar@asu.edu).
 
 <br />
 
+## Contributors
+
+[Rashmeet Kaur Nayyar](https://rashmeetnayyar.com)<br/>
+[Pulkit Verma](https://pulkitverma.net)<br/>
+[Siddharth Srivastava](https://siddharthsrivastava.net/)<br/>
+
+<br/>
+
+
 # Citation
 ```
 @inproceedings{nayyar_2022_differential,
